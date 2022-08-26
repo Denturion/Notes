@@ -6,3 +6,5 @@ A basic document management system with a backend in express and frontend in rea
 Run backend on port 3000 and frontend on port 3001.
 
 
+username: admin
+password: admin
