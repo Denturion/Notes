@@ -1,0 +1,26 @@
+GET http://localhost:3001/users
+
+###
+
+GET http://localhost:3001/users/1
+
+###
+
+
+POST http://localhost:3001/users/add
+Content-Type: application/json
+
+{
+    "documentName": "Davids dokument",
+    "documentText": "Fler grejs.",
+    "createDate": "2022-08-19"
+}
+
+### 
+
+PUT http://localhost:3001/users/1
+Content-Type: application/json
+
+{
+    "documentName": "Davids saker"
+}

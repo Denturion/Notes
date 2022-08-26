@@ -1,0 +1,47 @@
+.navigation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding: 0.5rem 0rem;
+    background-color: rgb(195, 206, 241);
+    color: rgb(70, 43, 189);
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  }
+  
+  .navigation-menu {
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+  
+  .navigation-menu ul {
+    display: flex;
+    padding: 0;
+    z-index: 99;
+  }
+  
+  .navigation-menu li {
+    list-style-type: none;
+    margin: 0 1rem;
+    font-weight: 400;
+  }
+  
+  .link {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: rgb(70, 43, 189);
+    font-size: 1.5rem;    
+  }
+
+  .link-active {
+    text-decoration: underline;
+    display: block;
+    width: 100%;
+    color: rgb(70, 43, 189);
+    font-size: 1.5rem;  
+
+  }
+  
+  
